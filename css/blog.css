@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Roboto+Slab:wght@100;200;400;500;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box; /*new property */
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #000000;
+    padding: 0px 100px;
+    /* font mid me laane ke liye */
+    line-height:80px;
+    border-bottom:1px solid #FFCC1D;
+}
+nav h2
+{
+    color: #F8F8F8;
+    padding: 20px;
+}
+nav ul li
+{
+    display: inline-block;
+    margin: 0px 20px;
+}
+nav ul li a
+{
+    color: #F8F8F8;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    color: #FFCC1D;
+}
+nav a
+{
+    color: #F8F8F8;
+    text-decoration: none;
+}
+.icon
+{
+    color:#F8F8F8;
+    display:none;
+}
+#checkbtn
+{
+    display: none;
+}
+
+/* -------------- */
+
+#section3
+{
+    height: 60px;
+}
+#section3 span
+{
+    text-align: center;
+    padding: 10px 15px;
+    margin: 0px 20px;
+}
+
+#section3 .col-lg-4
+{
+    background-color: #ffc508;
+    color: white;
+    padding: 5px 5px;
+    text-align: right;
+    height:60px;
+}
+
+#section3 .col-lg-8
+{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 6px 12px;
+   
+}
+
+/* section1 */
+
+#section1
+{
+    background-image: url(../gameImages/blog_images/section1_bg.jpg);
+    height:500px;
+    color:white;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#section1 h1
+{
+   position:absolute;
+   bottom:140px;
+   left:150px;
+   font-size: 55px;
+}
+
+#section1 p
+{
+    width:600px;
+    position:absolute;
+    bottom:60px;
+    left:150px;
+}
+
+/* section 2 */
+
+
+#section2 .container
+{
+    padding-top:100px;
+
+}
+#section2 .box
+{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    position: relative;
+    border: 1px solid rgba(133, 131, 131, 0.473);
+}
+#section2 .box span
+{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    padding: 8px 14px;
+    color: white;
+    font-weight: 500;
+}
+
+#section2 .box h2
+{
+    position: absolute;
+    bottom: 190px;
+    text-align: center;
+    left:40px;
+}
+#section2 .box p
+{
+    position: absolute;
+    bottom: 100px;
+    left:40px;
+    color: rgba(109, 107, 107, 0.616);
+    
+}
+#section2 .box .comments
+{
+    position:absolute;
+    bottom:5px;
+    font-size: 12px;
+    color:rgb(161, 161, 161);
+}
+#section2 .section5_star
+{
+    position:absolute;
+    background-color:#FFB320;
+    height: 40px;
+    width:40px;
+    bottom:0px;
+    right:40px;
+    padding:5px 5px;
+}
+#section2 .section5_heart
+{
+    position:absolute;
+    background-color:#FF205F;
+    height:40px;
+    width:40px;
+    bottom:0px;
+    right:0px;
+    padding:5px 5px;
+}
+#section2 .section8_box
+{
+    padding-top: 20px;
+
+}
+
+#section2 .section8_box  p 
+{
+    font-size:12px;
+    margin-bottom: 5px;
+}
+#section2 .section8_box img
+{
+    padding-bottom: 20px;
+}
+/* ----------- */
+
+#section2 .box2 img
+{
+    border-radius:50px;
+}
+#section2 .box2 p
+{
+    font-size:12px;
+    line-height: 24px;
+}
+
+#section2 .box3
+{
+    background-image: url(../gameImages/blog_images/section2_10.jpg);
+    height:400px;
+    width:330px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    position:relative;
+}
+#section2 .box3 .overlay
+{
+    background-color:#0000009c;
+    height:100%;
+}
+#section2 .box3 span
+{
+    padding: 2px 15px;
+    position:absolute;
+    left:30px;
+    top:20px;
+}
+#section2 .box3 h2
+{
+    position:absolute;
+    bottom:150px;
+    left:20px;
+    font-size:20px;
+} 
+#section2 .box3 p
+{
+    position:absolute;
+    bottom:45px;
+    width:310px;
+    left:20px;
+    font-size:13px;
+}
+#section2 .box3 .comments
+{
+   position:absolute;
+   bottom:5px;
+   left:20px;
+   font-size:12px;
+   color:rgba(212, 211, 211, 0.685);
+}
+/* ---------- */
+
+#section2 .box4
+{
+    height:450px;
+    width:330px;
+    position:relative;
+    background-color:#dbfae5da;
+}
+
+#section2 .box4 p
+{
+    position:absolute;
+    bottom:25px;
+    font-size: 12px;
+    color:#757272e7;
+    width:300px;
+    margin:0px 0px 0px;
+    left:12px;
+}
+
+#section2 .box4 .rating
+{
+    padding:14px 14px;
+    color:white;
+    background-color:#FFB320;
+    border-radius:38px;
+    position:absolute;
+    top:-28px;
+    left:20px;
+
+}
+.bg_img
+{
+    height:315px;
+    background-image: url(../gameImages/gamespageimages/section4_1.jpg);
+    background-size: cover;
+    background-position: top-center;
+}
+
+/* --------- */
+
+#section8
+{
+    background-image: url(../gameImages/section6_pattern.png)
+}
+.section8box
+{
+    background-color: #252525;
+    padding: 30px 10px;
+}
+#section8 p
+{
+    color:white;
+    width:450px;
+}
+#section8 .container
+{
+    padding-top:100px;
+    padding-bottom:80px;
+}
+#section8 .row .row p
+{
+    padding:0px 0px;
+    margin:0px;
+}
+#section8 .row .row img
+{
+    height: 120px;
+    width: 120px;
+    padding-right: 10px;
+}
+#section8 .row .row 
+{
+    margin: 0px 0px 15px;
+}
+.section8box h2
+{
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:28px;
+    padding-left:15px;
+}
+.outercolumn .img1
+{
+    margin: 10px 10px;
+    padding-bottom: 10px;
+}
+#section8 .outercolumn p
+{
+    width:400px;
+    justify-content:left;
+}

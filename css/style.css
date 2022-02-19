@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Roboto+Slab:wght@100;200;400;500;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+     box-sizing: border-box; /*new property */
+}
+
+/* navigation style */
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #000000;
+    padding: 0px 100px;
+    /* font mid me laane ke liye */
+    line-height:80px;
+    border-bottom:1px solid #FFCC1D;
+}
+nav h2
+{
+    color: #F8F8F8;
+    padding: 20px;
+}
+nav ul li
+{
+    display: inline-block;
+    margin: 0px 20px;
+}
+nav ul li a
+{
+    color: #F8F8F8;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    color: #FFCC1D;
+}
+nav a
+{
+    color: #F8F8F8;
+    text-decoration: none;
+}
+.icon
+{
+    color:#F8F8F8;
+    display:none;
+}
+#checkbtn
+{
+    display: none;
+}
+/* Section 2 */
+
+#section2
+{
+    background-image: url(../gameImages/section2\ background.jpg);
+    height: calc(100vh - 80px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    position: relative;
+}
+.outercontent
+{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+.content p
+{
+    width: 40%;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+
+.mybtn
+{
+    background-color: #ffd105f8;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.mybtn:hover
+{
+    background-color: transparent;
+    color: #ffd105f8;
+    border:2px solid #ffd105f8;
+}
+/* Section 3 */
+#section3
+{
+    padding: 0px 0px;
+    height: 80px;
+}
+#section3 span
+{
+    text-align: center;
+    padding: 10px 15px;
+    margin: 0px 20px;
+}
+
+#section3 .col-lg-4
+{
+    background-color: #ffc508;
+    color: white;
+    padding: 5px 5px;
+    text-align: right;
+    height:60px;
+}
+
+#section3 .col-lg-8
+{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 6px 12px;
+   
+}
+
+/* section 4 */
+.overlay
+{
+    background-color: rgba(138, 136, 136, 0.315);
+}
+#section4 
+{
+    padding: 80px 0px;
+}
+
+#section4 .box
+{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#section4 .col-lg-3
+{
+    padding: 0px 0px;
+    
+}
+#section4 span
+{
+    padding: 5px 10px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    font-weight: 500;
+
+}
+
+#section4 .container
+{
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+#section4 .content h2
+{
+    font-size:25px;
+    font-weight: 500;
+    color:white;
+    position: absolute;
+    bottom:80px;
+    left: 10px;
+    
+}
+#section4 .content p
+{
+    font-size:15px;
+    position: absolute;
+    bottom: 10px;
+    width:330px;
+    left:10px;
+}
+#section4 .content
+{
+    background-color: rgba(0, 0, 0, 0.247);
+}
+/* Section 5 */
+
+#section5
+{
+    background-image: url(../gameImages/section5\ bg\ img.png);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    margin-bottom: -150px;
+    position:relative;
+}
+#section5 .container
+{
+    padding-top:150px;
+    padding-bottom:100px;
+}
+#section5 .col-lg-4
+{
+    padding: 50px 15px;
+}
+#section5 .box
+{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    position: relative;
+}
+#section5 .section5_outerSpan
+{
+    position:absolute;
+    top:50px;
+    left:700px;
+}
+#section5 .section5_outerheading
+{
+    position:absolute;
+    left:620px;
+    top:100px;
+
+}
+
+#section5 .box span
+{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    padding: 8px 14px;
+    color: white;
+    font-weight: 500;
+}
+
+#section5 .box h2
+{
+    position: absolute;
+    bottom: 190px;
+    text-align: center;
+    left:40px;
+}
+#section5 .box p
+{
+    position: absolute;
+    bottom: 120px;
+    left:40px;
+    
+}
+#section5 .box .comments
+{
+    position:absolute;
+    bottom:5px;
+    font-size: 12px;
+    color:rgb(161, 161, 161);
+}
+#section5 .section5_star
+{
+    position:absolute;
+    background-color:yellow;
+    height: 40px;
+    width:40px;
+    bottom:0px;
+    right:40px;
+    padding:5px 5px;
+}
+#section5 .section5_heart
+{
+    position:absolute;
+    background-color:rgb(255, 0, 200);
+    height:40px;
+    width:40px;
+    bottom:0px;
+    right:0px;
+    padding:5px 5px;
+}
+/* Section 6 */
+#section6 
+{
+    background-image: url(../gameImages/section6_pattern.png);
+    height: 550px;
+    position:relative;
+    margin:0px;
+    
+}
+
+#section6 .row
+{
+    margin-top:150px;
+    height:280px;
+    
+}
+.section6box
+{
+    background-color: #252525;
+    position: relative;
+}
+
+.tournaments
+{
+    color:white;
+    background-color:#FB6E10;
+    display:inline-block;
+    position:absolute;
+    padding:10px 15px;
+    top:106px;
+}
+.premium
+{
+    color: black;
+    background-color:#ffc508;
+    display:inline-block;
+    padding: 10px 15px;
+}
+/* #section6 .row .col-lg-6 .row
+{
+    position: relative;
+} */
+#section6 img
+{
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    height:75%;
+    width:30%;
+}
+#section6 .content
+{
+    margin:0px;
+    padding:0px;
+}
+.colyellow
+{
+    color:#FFB320;
+}
+.lightwhite
+{
+    color:rgba(245, 245, 245, 0.52);
+}
+
+#section6 h2 
+{
+    padding-top: 15px;
+}
+
+#section6 p
+{
+    color:white;
+    width:100%;
+    font-size: 16px;
+}
+/* Section 7 */
+#section7 
+{
+    position: relative;
+    background-image: url(../gameImages/section7_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#section7 .container
+{
+   padding-top:200px;
+}
+#section7 span
+{
+    color:white;
+    padding:5px 10px;  
+}
+#section7 center
+{
+    position:absolute;
+    left:600px;
+    top:80px;
+}
+#section7 .col-lg-3
+{
+    position: relative;
+}
+#section7 .rating
+{
+    padding:20px 20px;
+    border-radius: 35px;
+    position:absolute;
+    top:-30px;
+    left:25px;
+    
+}
+/* Section 8 */
+#section8
+{
+    background-image: url(../gameImages/section6_pattern.png)
+}
+.section8box
+{
+    background-color: #252525;
+    padding: 30px 10px;
+}
+#section8 p
+{
+    color:white;
+    width:450px;
+}
+#section8 .container
+{
+    padding-top:100px;
+    padding-bottom:80px;
+}
+#section8 .row .row p
+{
+    padding:0px 0px;
+    margin:0px;
+}
+#section8 .row .row img
+{
+    height: 120px;
+    width: 120px;
+    padding-right: 10px;
+}
+#section8 .row .row 
+{
+    margin: 0px 0px 15px;
+}
+.section8box h2
+{
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:28px;
+    padding-left:15px;
+}
+.outercolumn .img1
+{
+    margin: 10px 10px;
+    padding-bottom: 10px;
+}
+#section8 .outercolumn p
+{
+    width:400px;
+    justify-content:left;
+}
+
+
+/* ************************* */
+    /* Games.html page */
+/* ************************* */
+
+
+
+/* Making website responsive */
+@media only screen and (max-width: 420px)
+{
+     nav
+     {
+         padding: 0px 20px;
+         font-size: 20px;
+     }
+     nav ul
+     {
+        position: absolute;
+        top: 80px; /*position property */
+        background-color: #FFCC1D;
+        height: 100vh;
+        width: 505;
+        left:-100%; /*position property */
+        transition: all 2s;
+     }
+     nav ul li
+     {
+         display: block;
+         text-align: center;
+     }
+     nav ul li a
+     {
+         color: black;
+         font-weight: 500;
+
+     }
+     .icon
+     {
+         display: block;
+         position: absolute;
+         right:20px;
+     }
+     #checkbtn:checked~ul
+     {
+         left: 0px;
+     }
+     nav a
+     {
+        padding: 0px 20px;
+     }
+}
+/* @media only screen and (min-width: 420px) and (max-width:900px)
+{
+
+} */

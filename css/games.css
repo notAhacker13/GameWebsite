@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Roboto+Slab:wght@100;200;400;500;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box; /*new property */
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #000000;
+    padding: 0px 100px;
+    /* font mid me laane ke liye */
+    line-height:80px;
+    border-bottom:1px solid #FFCC1D;
+}
+nav h2
+{
+    color: #F8F8F8;
+    font-size: 35px;
+    padding-top:18px;
+}
+nav ul li
+{
+    display: inline-block;
+    margin: 0px 20px;
+}
+nav ul li a
+{
+    color: #F8F8F8;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    color: #FFCC1D;
+}
+nav a
+{
+    color: #F8F8F8;
+    text-decoration: none;
+}
+.icon
+{
+    color:#F8F8F8;
+    display:none;
+}
+#checkbtn
+{
+    display: none;
+}
+
+/* section1 */
+
+
+/* #section1 .col-lg-4 
+{
+    background-color:#FFCC1D;
+    text-align: right;
+    display:inline-block;
+    padding-left:50px;
+}
+#section1 .col-lg-4 h2
+{
+    padding-left:20px;
+    padding-right:20px;
+}
+#section1 .col-lg-8
+{
+      background-color: black;
+      color:white; 
+      display:inline-block;    
+} */
+
+/* section2 */
+#section2
+{
+    background-image: url(../gameImages/gamespageimages/section2_bg.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:500px;
+    color:white;
+    position: relative;
+}
+#section2 h1
+{
+    position:absolute;
+    left:160px;
+    bottom:160px;
+    font-size:60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+#section2 p
+{
+    position:absolute;
+    left:160px;
+    bottom:60px;
+    width:600px;
+    line-height: 35px;
+}
+
+/* section3 */
+#section3
+{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+#section3 .col-md-6
+{
+    position:relative;
+    padding-bottom: 100px;
+}
+#section3 .col-md-6 h2
+{
+    font-size:24px;
+    padding-top:30px;
+}
+#section3 .col-md-6 p
+{
+    width:90%;
+    color:rgb(145, 142, 142);
+    padding-top:24px;
+    font-size: 13px;
+}
+#section3 .rating
+{
+    background-color:#FFB320;
+    padding: 14px 14px;
+    border-radius: 30px;
+    color:white;
+    font-size: 18px;
+    font-weight:500;
+    position:absolute;
+    left: 100px;
+    top:-28px;
+}
+#section3 i
+{
+    font-size: 10px;
+}
+#section3 .fas
+{
+    color:#FFB320;
+    
+}
+#section3 .fa
+{
+    color: grey;
+}
+#section3 .button1
+{
+    color:black;
+    background-color:#FFB320;
+    padding: 10px 40px;
+    border-radius:20px;
+    font-weight:500;  
+}
+
+/* section4 */
+
+#section4
+{
+    background-image: url(../gameImages/gamespageimages/section4_bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    color:white;
+    position:relative;
+}
+
+#section4 span
+{
+    background-color: #FF205F;
+    padding: 5px 30px; 
+    position:absolute;
+    top:50px;
+    left:730px;
+}
+
+#section4 h2
+{
+    font-size:45px;
+    position:absolute;
+    top:100px;
+    left:600px;
+}
+
+#section4 .container
+{
+    padding-top:250px;
+    padding-bottom:80px;
+
+}
+
+#section4 .col-lg-3
+{
+    position:relative;
+}
+#section4 .rating
+{
+    background-color:#FFB320;
+    padding:14px 14px;
+    border-radius:30px;
+    font-size: 18px;
+    position:absolute;
+    left:38px;
+    top:-28px;
+}
+
+#section4 .col-lg-3 h5
+{
+    padding-top:30px;
+}
+
+#section4 .col-lg-3 p
+{
+    padding-top:10px;
+    color:rgb(199, 191, 191);
+    font-size:14px;
+}
+
+/* ------------- */
+
+#section8
+{
+    background-image: url(../gameImages/section6_pattern.png)
+}
+.section8box
+{
+    background-color: #252525;
+    padding: 30px 10px;
+}
+#section8 p
+{
+    color:white;
+    width:450px;
+}
+#section8 .container
+{
+    padding-top:100px;
+    padding-bottom:80px;
+}
+#section8 .row .row p
+{
+    padding:0px 0px;
+    margin:0px;
+}
+#section8 .row .row img
+{
+    height: 120px;
+    width: 120px;
+    padding-right: 10px;
+}
+#section8 .row .row 
+{
+    margin: 0px 0px 15px;
+}
+.section8box h2
+{
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:28px;
+    padding-left:15px;
+}
+.outercolumn .img1
+{
+    margin: 10px 10px;
+    padding-bottom: 10px;
+}
+#section8 .outercolumn p
+{
+    width:400px;
+    justify-content:left;
+}
+
+/* MAKING RESPONSIVE */
+@media only screen and (max-width: 420px)
+{
+     nav
+     {
+         padding: 0px 20px;
+         font-size: 20px;
+     }
+     nav ul
+     {
+        position: absolute;
+        top: 80px; /*position property */
+        background-color: #FFCC1D;
+        height: 100vh;
+        width: 505;
+        left:-100%; /*position property */
+        transition: all 2s;
+     }
+     nav ul li
+     {
+         display: block;
+         text-align: center;
+     }
+     nav ul li a
+     {
+         color: black;
+         font-weight: 500;
+
+     }
+     .icon
+     {
+         display: block;
+         position: absolute;
+         right:20px;
+     }
+     #checkbtn:checked~ul
+     {
+         left: 0px;
+     }
+     nav a
+     {
+        padding: 0px 20px;
+     }
+}

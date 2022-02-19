@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Roboto+Slab:wght@100;200;400;500;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box; /*new property */
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #000000;
+    padding: 0px 100px;
+    /* font mid me laane ke liye */
+    line-height:80px;
+    border-bottom:1px solid #FFCC1D;
+}
+nav h2
+{
+    color: #F8F8F8;
+    padding: 20px;
+}
+nav ul li
+{
+    display: inline-block;
+    margin: 0px 20px;
+}
+nav ul li a
+{
+    color: #F8F8F8;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    color: #FFCC1D;
+}
+nav a
+{
+    color: #F8F8F8;
+    text-decoration: none;
+}
+.icon
+{
+    color:#F8F8F8;
+    display:none;
+}
+#checkbtn
+{
+    display: none;
+}
+
+/* -------------- */
+
+#section3
+{
+    height: 60px;
+}
+#section3 span
+{
+    text-align: center;
+    padding: 10px 15px;
+    margin: 0px 20px;
+}
+
+#section3 .col-lg-4
+{
+    background-color: #ffc508;
+    color: white;
+    padding: 5px 5px;
+    text-align: right;
+    height:60px;
+}
+
+#section3 .col-lg-8
+{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 6px 12px;
+   
+}
+
+/* section1 */
+
+#section1
+{
+    background-image: url(../gameImages/forumspage_images/section1_bg.jpg);
+    height:500px;
+    color:white;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#section1 h1
+{
+   position:absolute;
+   bottom:140px;
+   left:150px;
+   font-size: 55px;
+}
+
+#section1 p
+{
+    width:600px;
+    position:absolute;
+    bottom:60px;
+    left:150px;
+}
+
+/* -----SECTION 2----- */
+#section2
+{
+    background-image: url(../);
+}
+#section2 .container
+{
+    background-color:#796d6d9d;
+}
+#section2 .container .box1
+{
+    background-color:#1f1c1c;
+    color:white;
+}
